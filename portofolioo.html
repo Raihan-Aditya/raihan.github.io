@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Raihan Aditya</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="portofolio.CSS">
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <script src="portofolio.js"></script>
+    <nav class="fixed w-full bg-white shadow-md z-50">
+        <div class="container mx-auto px-6 py-3 flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold text-gray-800">Portfolio</a>
+            
+            <div class="hamburger">
+                <i class="fas fa-bars text-2xl text-gray-800"></i>
+            </div>
+            
+            <div class="nav-menu hidden md:flex space-x-8">
+                <a href="#" class="nav-link text-gray-800 hover:text-blue-600">Beranda</a>
+                <a href="#about" class="nav-link text-gray-800 hover:text-blue-600">Tentang Saya</a>
+                <a href="#skills" class="nav-link text-gray-800 hover:text-blue-600">Kemampuan</a>
+                <!--
+                <a href="#projects" class="nav-link text-gray-800 hover:text-blue-600">Projek</a>
+                -->
+                <a href="#contact" class="nav-link text-gray-800 hover:text-blue-600">Kontak</a>
+                <button class="close-btn absolute top-5 right-5 text-white text-2xl md:hidden">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero flex items-center justify-center text-white pt-20">
+        <div class="container mx-auto px-6 text-center">
+            <h1 class="text-4xl md:text-6xl font-bold mb-4">Hi, Saya <span class="text-yellow-300">Raihan Aditya</span></h1>
+            <h2 class="text-2xl md:text-3xl mb-8">Programmer</h2>
+            <p class="text-lg md:text-xl max-w-2xl mx-auto mb-10">Saya membangun pengalaman digital yang luar biasa yang cepat dan website dengan visual yang menarik.</p>
+            <div class="flex justify-center space-x-4">
+                <a href="#projects" class="bg-white text-blue-600 px-6 py-3 rounded-full font-semibold hover:bg-gray-100 transition duration-300">Projek</a>
+                <a href="#contact" class="border-2 border-white text-white px-6 py-3 rounded-full font-semibold hover:bg-white hover:text-blue-600 transition duration-300">Kontak Saya </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="section-title text-3xl font-bold text-gray-800 mb-12">Tentang Saya</h2>
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/3 mb-8 md:mb-0 flex justify-center">
+                    <img src="img/Pasfoto 30x40.jpg" alt="Profile picture of John Doe" class="rounded-full w-64 h-64 object-cover shadow-xl">
+                </div>
+                <div class="md:w-2/3 md:pl-12">
+                    <h3 class="text-2xl font-semibold text-gray-800 mb-4">Siapa Saya?<h3>
+                    <p class="text-gray-600 mb-6">Saya Raihan Aditya yang baru saja lulus SMA Kurikulum 2013 (2025) dengan kemampuan komunikasi, disiplin, tanggung jawab, dan menjunjung tinggi terhadap kebersihan. Aktif mengikuti perlombaan yang diadakan dalam sekolah maupun luar sekolah. Memiliki keterampilan kinerja yang baik dan totalitas dalam bekerja. Saya siap berkontribusi dan beradaptasi di bidang apapun.</p>
+                    <!--
+                    <p class="text-gray-600 mb-6"></p>
+                    -->
+                    <div class="grid grid-cols-2 gap-4">
+                        <div>
+                            <p class="font-semibold text-gray-800">Nama: <span class="font-normal text-gray-600">Raihan Aditya</span></p>
+                            <p class="font-semibold text-gray-800">Email: <span class="font-normal text-gray-600">raihan7000aja@gmail.com
+                            </span></p>
+                        </div>
+                        <div>
+                            <p class="font-semibold text-gray-800">Asal: <span class="font-normal text-gray-600">Indonesia, Sumatra, Riau, Pekanbaru</span></p>
+                            <p class="font-semibold text-gray-800">Freelance: <span class="font-normal text-gray-600">-</span></p>
+                        </div>
+                    </div>
+                    <a href="CV/Curriculum Vitae Raihan Aditya.pdf" class="inline-block mt-6 bg-blue-600 text-white px-6 py-3 rounded-full font-semibold hover:bg-blue-700 transition duration-300">Download CV</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <h2 class="section-title text-3xl font-bold text-gray-800 mb-12">Kemampuan Saya</h2>
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                <!-- Skill Card 1 -->
+                <div class="skill-card bg-white p-6 rounded-lg shadow-md text-center">
+                    <div class="text-blue-600 text-4xl mb-4">
+                        <i class="fab fa-js"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">JavaScript</h3>
+                    <!--
+                    <p class="text-gray-600">Beginner</p>
+                    -->
+                </div>
+                
+                <!-- Skill Card 2 
+                <div class="skill-card bg-white p-6 rounded-lg shadow-md text-center">
+                    <div class="text-blue-600 text-4xl mb-4">
+                        <i class="fab fa-react"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">React.js</h3>
+                    <p class="text-gray-600">Building interactive UIs with React hooks</p>
+                </div>
+                
+                <!-- Skill Card 3 
+                <div class="skill-card bg-white p-6 rounded-lg shadow-md text-center">
+                    <div class="text-blue-600 text-4xl mb-4">
+                        <i class="fab fa-node-js"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Node.js</h3>
+                    <p class="text-gray-600">Server-side JavaScript development</p>
+                </div>
+                
+                <!-- Skill Card 4 
+                <div class="skill-card bg-white p-6 rounded-lg shadow-md text-center">
+                    <div class="text-blue-600 text-4xl mb-4">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">MongoDB</h3>
+                    <p class="text-gray-600">NoSQL database design and optimization</p>
+                </div>
+                
+
+                <!-- Skill Card 5 -->
+                <div class="skill-card bg-white p-6 rounded-lg shadow-md text-center">
+                    <div class="text-blue-600 text-4xl mb-4">
+                        <i class="fab fa-html5"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">HTML5</h3>
+                    <!--
+                    <p class="text-gray-600">Markup semantik dan aksesibilitas</p>
+                    -->
+                </div>
+                
+                <!-- Skill Card 6 -->
+                <div class="skill-card bg-white p-6 rounded-lg shadow-md text-center">
+                    <div class="text-blue-600 text-4xl mb-4">
+                        <i class="fab fa-css3-alt"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">CSS3</h3>
+                    <!--
+                    <p class="text-gray-600">Modern layout dan animasi</p>
+                    -->
+                </div>
+                
+                <!-- Skill Card 7 
+                <div class="skill-card bg-white p-6 rounded-lg shadow-md text-center">
+                    <div class="text-blue-600 text-4xl mb-4">
+                        <i class="fab fa-git-alt"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Git</h3>
+                    <p class="text-gray-600">Version control and collaboration</p>
+                </div>
+                
+                <!-- Skill Card 8 
+                <div class="skill-card bg-white p-6 rounded-lg shadow-md text-center">
+                    <div class="text-blue-600 text-4xl mb-4">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Responsive Design</h3>
+                    <p class="text-gray-600">Mobile-first development approach</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section --
+    <section id="projects" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="section-title text-3xl font-bold text-gray-800 mb-12">My Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Project 1 --
+                <div class="project-card bg-white rounded-lg shadow-lg overflow-hidden">
+                    <div class="overflow-hidden">
+                        <img src="https://placehold.co/600x400" alt="E-commerce platform screenshot" class="project-image w-full h-48 object-cover">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">E-commerce Platform</h3>
+                        <p class="text-gray-600 mb-4">A full-featured online store with cart, checkout, and admin dashboard.</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">React</span>
+                            <span class="bg-green-100 text-green-800 text-xs px-3 py-1 rounded-full">Node.js</span>
+                            <span class="bg-yellow-100 text-yellow-800 text-xs px-3 py-1 rounded-full">MongoDB</span>
+                        </div>
+                        <div class="flex space-x-3">
+                            <a href="#" class="text-blue-600 hover:text-blue-800"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            <a href="#" class="text-gray-600 hover:text-gray-800"><i class="fab fa-github"></i> Source Code</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 2 --
+                <div class="project-card bg-white rounded-lg shadow-lg overflow-hidden">
+                    <div class="overflow-hidden">
+                        <img src="https://placehold.co/600x400" alt="Task management app screenshot" class="project-image w-full h-48 object-cover">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">Task Management App</h3>
+                        <p class="text-gray-600 mb-4">A productivity app with drag-and-drop interface and team collaboration.</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">React</span>
+                            <span class="bg-purple-100 text-purple-800 text-xs px-3 py-1 rounded-full">Redux</span>
+                            <span class="bg-green-100 text-green-800 text-xs px-3 py-1 rounded-full">Firebase</span>
+                        </div>
+                        <div class="flex space-x-3">
+                            <a href="#" class="text-blue-600 hover:text-blue-800"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            <a href="#" class="text-gray-600 hover:text-gray-800"><i class="fab fa-github"></i> Source Code</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 3 --
+                <div class="project-card bg-white rounded-lg shadow-lg overflow-hidden">
+                    <div class="overflow-hidden">
+                        <img src="https://placehold.co/600x400" alt="Social media dashboard screenshot" class="project-image w-full h-48 object-cover">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">Social Media Dashboard</h3>
+                        <p class="text-gray-600 mb-4">Analytics dashboard for tracking social media metrics and engagement.</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">Vue.js</span>
+                            <span class="bg-green-100 text-green-800 text-xs px-3 py-1 rounded-full">Express</span>
+                            <span class="bg-indigo-100 text-indigo-800 text-xs px-3 py-1 rounded-full">Chart.js</span>
+                        </div>
+                        <div class="flex space-x-3">
+                            <a href="#" class="text-blue-600 hover:text-blue-800"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            <a href="#" class="text-gray-600 hover:text-gray-800"><i class="fab fa-github"></i> Source Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <h2 class="section-title text-3xl font-bold text-gray-800 mb-12">Informasi</h2>
+            <div class="flex flex-col md:flex-row">
+                <div class="md:w-1/2 mb-8 md:mb-0">
+                    <h3 class="text-2xl font-semibold mb-4">Kontak Informasi</h3>
+                    <p class="text-gray-600 mb-6">Silakan hubungi saya jika ada pertanyaan atau kesempatan. Saya akan memberi tahu Anda secepatnya!</p>
+                    
+                    <div class="space-y-4">
+                        <div class="flex items-start">
+                            <div class="text-blue-600 mr-4 mt-1">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold">Lokasi</h4>
+                                <p class="text-gray-600">Indonesia, Sumatra, Riau, Pekanbaru</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="text-blue-600 mr-4 mt-1">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold">Email</h4>
+                                <p class="text-gray-600">raihan7000aja@gmail.com</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="text-blue-600 mr-4 mt-1">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold">Telepon</h4>
+                                <p class="text-gray-600">+62 89623509392</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="mt-8">
+                        <h4 class="font-semibold mb-4">Follow Me</h4>
+                        <div class="flex space-x-4">
+                            <a href="#" class="text-gray-600 hover:text-blue-600 text-xl"><i class="fab fa-github"></i></a>
+                            <a href="#" class="text-gray-600 hover:text-blue-600 text-xl"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#" class="text-gray-600 hover:text-blue-600 text-xl"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="text-gray-600 hover:text-blue-600 text-xl"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="md:w-1/2 md:pl-12">
+                    <form class="space-y-4">
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                            <div>
+                                <label for="name" class="block text-gray-700 mb-2">Nama Kamu</label>
+                                <input type="text" id="name" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600">
+                            </div>
+                            <div>
+                                <label for="email" class="block text-gray-700 mb-2">Email Kamu</label>
+                                <input type="email" id="email" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600">
+                            </div>
+                        </div>
+                        <div>
+                            <label for="subject" class="block text-gray-700 mb-2">Subjek</label>
+                            <input type="text" id="subject" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600">
+                        </div>
+                        <div>
+                            <label for="message" class="block text-gray-700 mb-2">Pesan</label>
+                            <textarea id="message" rows="5" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600"></textarea>
+                        </div>
+                        <button type="submit" class="bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition duration-300">Kirim Pesan</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-6 text-center">
+            <p>&copy; 2023 Raihan Aditya. All rights reserved.</p>
+            <!--
+            <p class="mt-2 text-gray-400">Built with <i class="fas fa-heart text-red-500"></i> and a lot of <i class="fas fa-coffee text-yellow-500"></i></p>
+            -->
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="fixed bottom-8 right-8 bg-blue-600 text-white p-3 rounded-full shadow-lg opacity-0 invisible transition-all duration-300">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script>
+        
+    </script>
+</body>
+</html>
